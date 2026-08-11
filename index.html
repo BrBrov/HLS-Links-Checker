@@ -1,13 +1,35 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hls-checker</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer type="module" src="/src/main.ts"></script>
+  <title>hls-checker</title>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="header__wrapper">
+        <h1 class="header__title">HLS Checker</h1>
+        <p class="header__text">Check your stream!!!</p>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__video-wrapper">
+        <video class="main__video" src="" poster="" controls></video>
+      </div>
+      <input class="main__input-link" type="text" placeholder="Enter your stream URL">
+      <button type="button" class="main__play-link">Try to play</button>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <p class="footer__text">Check your stream URL into HLS.js</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
 </html>
