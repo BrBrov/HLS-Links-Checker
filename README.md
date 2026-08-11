@@ -1,2 +1,3 @@
-# HLS-Links-Checker
-Checker for playing stream URL in HLS.js browser
+## HLS-Links-Checker
+### Checker for playing stream URL in HLS.js browser
+[Try stream checker]()
