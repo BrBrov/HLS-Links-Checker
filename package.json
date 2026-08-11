@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "hls.js": "^1.6.17",
     "sass-embedded": "^1.100.0",
     "typescript": "~6.0.2",
     "vite": "^8.2.0"
