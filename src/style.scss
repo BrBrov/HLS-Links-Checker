@@ -79,9 +79,28 @@ button {
   color: var(--text-color);
 }
 
-.main__video-wrapper {
+.main__video-wrapper,
+.main__video-error {
   height: 55vh;
   aspect-ratio: 16 / 9;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+.main__video-error {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.main__error-type,
+.main__error-details,
+.main__error-msg {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 500;
+  color: var(--text-color);
 }
 
 .main__video {

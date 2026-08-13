@@ -1,12 +1,13 @@
 import type { HlsConfig } from 'hls.js';
 
 const config: Partial<HlsConfig> = {
-  debug: true,
+  debug: false,
   maxBufferLength: 30,
   maxMaxBufferLength: 600,
-  maxBufferSize: 60 * 1024 * 1024,
-  liveSyncDurationCount: 3,
-  liveMaxLatencyDurationCount: 10,
+  maxBufferSize: 600 * 1024 * 1024,
+  liveSyncDuration: 15,
+  // liveSyncDurationCount: 15,
+  // liveMaxLatencyDurationCount: 10,
   manifestLoadingTimeOut: 20000,
   manifestLoadingMaxRetry: 5,
   manifestLoadingRetryDelay: 1000,
